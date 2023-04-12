@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ca RE Exam Prep</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1> California Real Estate Exam Prep Quiz </h1>
+    <button id="startBtn" onclick="myFunction(), onTimer()">Start</button>
+    <div id="myCounter"></div>
+    <button onClick="window.location.href=window.location.href">Refresh Page</button>
+
+    <header> 
+      <div class="grid">
+        <div id="quiz">
+          <p id="question"></p>
+          <div class="buttons" visible: hide>
+            <button id="btn0"><span id="choice0"></span></button>
+            <button id="btn1"><span id="choice0"></span></button>
+            <button id="btn2"><span id="choice0"></span></button>
+            <button id="btn3"><span id="choice0"></span></button>
+          </div>
+          <hr style="margin-top: 50px">
+          <footer>
+          <p id="progress">Quistion x of y</p>
+          </footer>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </header>
+  </body>
+</html>
